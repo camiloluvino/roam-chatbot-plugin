@@ -21,7 +21,7 @@ Uso real: Claude y Gemini (la mayor parte), NotebookLM con frecuencia. Otros cha
 4. Actualizar `STATUS.md`
 5. Commit
 
-GitHub Pages publica `master`: lo que llega ahí es lo que el usuario carga en Roam. Trabajar en ramas y probar con la URL de jsDelivr del README antes de fusionar.
+El usuario instala copiando y pegando `chatbot-roam-plugin.js` compilado en Roam. Para probar un cambio, compilar y pegar el archivo resultante en Roam.
 
 ---
 

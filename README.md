@@ -31,10 +31,11 @@ La inserción va en lotes de 50 bloques respetando el límite de Roam (1500 muta
 
 ## Instalación
 
-Copia `loader.js` en un bloque `{{[[roam/js]]}}`. Carga siempre la versión publicada en GitHub Pages (rama `master`).
-
-Para probar otra rama sin publicarla, cambia temporalmente la URL del loader por:
-`https://cdn.jsdelivr.net/gh/camiloluvino/chatbotRoamPlugin@<rama>/chatbot-roam-plugin.js`
+1. En tu graph de Roam, crea una página (ej. `[[roam/js/chatbot-plugin]]`).
+2. Crea un bloque hijo con `{{[[roam/js]]}}`.
+3. Dentro, crea un bloque de código JavaScript.
+4. Copia y pega el contenido completo de `chatbot-roam-plugin.js`.
+5. Confirma con "Yes, I know what I'm doing" y recarga Roam.
 
 ## Desarrollo
 
