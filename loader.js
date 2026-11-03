@@ -6,7 +6,7 @@
  */
 var s = document.createElement('script');
 // Cache-busting: agrega timestamp para evitar cache
-s.src = 'https://camiloluvino.github.io/chatbotRoamPlugin/chatbot-roam-plugin.js?v=' + Date.now();
+s.src = 'https://camiloluvino.github.io/roam-chatbot-plugin/chatbot-roam-plugin.js?v=' + Date.now();
 s.type = 'text/javascript';
 s.onload = function () {
     console.log('[Chatbot Roam Plugin] Loaded from GitHub Pages');
