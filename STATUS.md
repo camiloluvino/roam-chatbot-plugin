@@ -28,6 +28,7 @@
 
 ## Historial
 ### v2.0.0 (2026-10-29) - Simplificación
+- Removido `"default-hotkey": "ctrl-shift-i"` de `src/index.js` (2026-11-17) para evitar colisión con otros atajos en Roam; el comando queda accesible desde el Command Palette ("Importar Conversacion de Chatbot"). Pendiente copiar el bundle recompilado en Roam.
 - Red de seguridad: ejemplos en `test-data/fixtures/`, `tests/run-fixtures.js`, build en Node (`scripts/build.js`).
 - Eliminados: Antigravity, formato antiguo de Claude (plaintext, tool calls, MCP), opciones de ChatGPT, editor de clasificación, limpiezas que nunca se ejecutaban.
 - Un módulo por formato en `src/formatos/`; detección por archivo.

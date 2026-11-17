@@ -1,7 +1,7 @@
 // CHATBOT ROAM PLUGIN v2.0.0
 // Importador de conversaciones de chatbots (Claude, Gemini, NotebookLM) a Roam
-// Uso: Ctrl+Shift+I o Command Palette
-// Generated: 2026-10-29 13:16:53
+// Uso: Command Palette ("Importar Conversacion de Chatbot")
+// Generated: 2026-11-17 12:14:38
 
 
 // --- limpieza-comun.js ---
@@ -2819,12 +2819,11 @@ const ChatbotRoamPlugin = {
         // Registrar comando principal
         window.roamAlphaAPI.ui.commandPalette.addCommand({
             label: 'Importar Conversacion de Chatbot',
-            callback: function () { ChatbotRoamUI.openModal(); },
-            "default-hotkey": "ctrl-shift-i"
+            callback: function () { ChatbotRoamUI.openModal(); }
         });
 
         console.log('Chatbot Roam Plugin v' + this.VERSION + ' loaded');
-        console.log('   Usa Ctrl+Shift+I o busca "Importar Conversacion" en el command palette.');
+        console.log('   Busca "Importar Conversacion de Chatbot" en el command palette.');
     }
 };
 

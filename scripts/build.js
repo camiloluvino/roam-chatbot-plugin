@@ -45,7 +45,7 @@ function build() {
     const version = readVersion();
     let out = '// CHATBOT ROAM PLUGIN v' + version + '\n' +
         '// Importador de conversaciones de chatbots (Claude, Gemini, NotebookLM) a Roam\n' +
-        '// Uso: Ctrl+Shift+I o Command Palette\n' +
+        '// Uso: Command Palette ("Importar Conversacion de Chatbot")\n' +
         '// Generated: ' + timestamp() + '\n\n';
 
     for (const file of SOURCE_FILES) {

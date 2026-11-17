@@ -27,12 +27,11 @@ const ChatbotRoamPlugin = {
         // Registrar comando principal
         window.roamAlphaAPI.ui.commandPalette.addCommand({
             label: 'Importar Conversacion de Chatbot',
-            callback: function () { ChatbotRoamUI.openModal(); },
-            "default-hotkey": "ctrl-shift-i"
+            callback: function () { ChatbotRoamUI.openModal(); }
         });
 
         console.log('Chatbot Roam Plugin v' + this.VERSION + ' loaded');
-        console.log('   Usa Ctrl+Shift+I o busca "Importar Conversacion" en el command palette.');
+        console.log('   Busca "Importar Conversacion de Chatbot" en el command palette.');
     }
 };
 

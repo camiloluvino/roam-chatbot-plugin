@@ -18,7 +18,7 @@ La limpieza común se aplica a todos: imágenes base64, tablas Markdown a `{{[[t
 ## Uso
 
 1. Selecciona en Roam el bloque bajo el cual insertar.
-2. `Ctrl+Shift+I` o "Importar Conversacion de Chatbot" en el Command Palette.
+2. Abre el Command Palette y ejecuta "Importar Conversacion de Chatbot".
 3. Arrastra uno o más `.md`. Cada archivo se detecta por separado y el modal muestra su formato.
 4. Ajusta las opciones si hace falta y revisa la vista previa.
 5. "Insertar en Roam". Cada archivo queda bajo un bloque con su nombre.
